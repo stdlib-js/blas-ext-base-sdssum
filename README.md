@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sdssum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdssum@deno/mod.js';
+import sdssum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdssum@v0.3.0-deno/mod.js';
 ```
 
 #### sdssum( N, x, strideX )
@@ -146,7 +146,7 @@ var v = sdssum.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import sdssum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdssum@deno/mod.js';
+import sdssum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdssum@v0.3.0-deno/mod.js';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float32'
